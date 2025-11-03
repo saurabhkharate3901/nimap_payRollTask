@@ -1,0 +1,47 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+.loginDiv {
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    position: relative;
+}
+
+.loginHeading {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+.eyeIcon {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.error{
+    color: orangered;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 2px;
+}
+}
+
+

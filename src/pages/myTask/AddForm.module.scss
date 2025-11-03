@@ -1,0 +1,54 @@
+.mainContainer{
+
+.inputField {
+    margin-bottom: 14px;
+}
+.inputFieldDescription {
+    margin-bottom: 30px;
+}
+.fileLabel {
+    font-size: 1rem;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #999;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #666;
+    display: flex;
+    &:hover{
+        padding-bottom: 2.5px;
+        border-bottom: 2px solid #1976D2;
+        cursor: pointer;
+ }
+}
+.removeFile {
+    margin-left: auto;
+    font-size: 14px;
+    color: red;
+    padding: 0 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+}
+.errorText {
+    color: orangered;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.dueDateLabel {
+    margin: 0;
+    font-size: 11.5px;
+    margin-bottom: -15px;
+    font-weight: 500;
+}
+
+.doubleFields {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+}

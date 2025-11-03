@@ -1,0 +1,46 @@
+.mainDiv {
+    // position: "absolute",
+    // top: "50%",
+    // left: "50%",
+    // transform: "translate(-50%, -50%)",
+    // width: 400,
+    // bgcolor: "background.paper",
+    // borderRadius: "7.5px",
+    // boxShadow: 24,
+    // width: "max-content",
+    // Height:400
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 7.5px;
+    height: auto;
+    width: 30%;
+    outline: none;
+
+    .heading {
+        padding: 15px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .content {
+        font-weight: 500;
+        font-size: 15px;
+        padding: 15px 15px;
+        text-align: left;
+    }
+
+    .coverageData {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 600;
+    }
+    .btnContainer{
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+        padding: 14px;
+    }
+}

@@ -1,0 +1,19 @@
+.filterButtonsDisplayDiv {
+    display: flex;
+    padding: 10px 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.filterDisplayButtons {
+    display: flex;
+    gap: 5px;
+}
+
+.noDataFound {
+    display: flex;
+    justify-content: center;
+}
+.sortIconMain{
+    display: flex;
+}

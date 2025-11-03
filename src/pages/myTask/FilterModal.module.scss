@@ -1,0 +1,47 @@
+
+.filterModalDiv {
+    padding: 15px;
+    position: absolute;
+    width: 500px;
+    z-index: 2;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #999;
+    top: 143px;
+    left: 90;
+    text-transform: capitalize;
+    text-align: left;
+    height: 482px;
+    // max-height: 300px;
+    // overflow-x: hidden;
+    // overflow-y: scroll;
+
+    .inputField {
+        margin-bottom: 14px;
+    }
+
+    .filterLabel {
+        font-size: 14px;
+        /* text-transform: capitalize; */
+        font-weight: 600;
+        margin: 20px 0 5px;
+        color: black;
+    }
+
+    .doubleFields {
+        display: flex;
+        justify-content: space-between; 
+        flex-wrap: wrap;
+    }
+    
+    .halfWidthInput {
+        width: 45%;
+    }
+
+    .addTaskModalFooter {
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+}
